@@ -10,7 +10,7 @@ public class StringWizard {
      * @param string input String
      * @param delimiter , - |
      */
-    public static void camelCase(boolean bol, String string, char delimiter){
-        System.out.println(CaseUtils.toCamelCase(string, bol, delimiter));
+    public static String camelCase(boolean bol, String string, char delimiter){
+        return CaseUtils.toCamelCase(string, bol, delimiter);
     }
 }
