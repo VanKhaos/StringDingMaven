@@ -1,12 +1,12 @@
 package de.thunderfrog;
 
-public class AppName {
+public class MyApp {
 
     private String appName;
     private String appVersion;
     private String appAuthor;
 
-    public AppName(String appName, String appVersion, String appAuthor) {
+    public MyApp(String appName, String appVersion, String appAuthor) {
         this.appName = appName;
         this.appVersion = appVersion;
         this.appAuthor = appAuthor;
