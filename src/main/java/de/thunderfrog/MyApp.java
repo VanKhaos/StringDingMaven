@@ -12,6 +12,10 @@ public class MyApp {
         this.appAuthor = appAuthor;
     }
 
+    public MyApp() {
+
+    }
+
     public String getAppName() {
         return appName;
     }
